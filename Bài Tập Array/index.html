@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="col-6 py-5">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header text-white bg-dark text-center">
+                    Bài 1
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Nhập các Số Nguyên</label>
+                          <input type="number" class="form-control" id="inputnumber" placeholder="Mảng " >
+                          
+                          <!-- <input type="number" class="form-control" id="inputnumber1" placeholder="Mảng 2" > -->
+                        </div>
+                       
+                       
+                        <button type="button" class="btn btn-primary my-3" id="btnsubmit" onclick="addEle()">Thêm số</button>
+                        <button type="button" class="btn btn-primary" id="btntotal">Tính Tổng Số Dương</button>
+                        <button type="button" class="btn btn-primary my-2" id="btnduong">Số Dương</button> 
+                        <button type="button" class="btn btn-primary my-2" id="btnnhonhat">Số Min Max </button> 
+                        <button type="button" class="btn btn-primary my-2" id="btnnhonhatduong">Số Min Dương </button> 
+                        <button type="button" class="btn btn-primary my-2" id="btncuoicung" onclick="sochancc()">Số Chẳn Cuối Cùng </button>
+                       <div>
+                          <input type="number" class="form-control" id="inputnumber1" placeholder="Nhập Vị Trí 1 " >
+                          <input type="number" class="form-control" id="inputnumber2" placeholder="Nhập Vị Trí 2 " >
+
+
+                        <button type="button" class="btn btn-primary my-2" id="btnswap" onclick="doicho()">Đỗi Chỗ </button> 
+                       </div>
+
+                        <button type="button" class="btn btn-primary my-2" id="btnsx">Sắp Xếp Tăng Dần  </button> 
+                        <button type="button" class="btn btn-primary my-2" id="btnsnn" onclick="print_snt()">Số Nguyên Tố Đầu Tiên   </button> 
+                        <button type="button" class="btn btn-primary my-2" id="btnthemmang">Thêm Mảng  </button> 
+                        <button type="button" class="btn btn-primary my-2" id="btnnguyen">Số Nguyên   </button> 
+                        <button type="button" class="btn btn-primary my-2" id="btnsosanh">So Sánh   </button> 
+
+
+
+
+
+
+
+
+                        
+                      <p id="txtthongbao"></p>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+   
+     <!-- JSBS4 -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+     crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+     crossorigin="anonymous"></script>
+ <script src="./main.js"></script>
+</body>
+</html>
